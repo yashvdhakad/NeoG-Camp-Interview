@@ -97,3 +97,68 @@
 
 // console.log(printOddNumbers(4));
 
+// ----------------------------------------------------------------------------
+
+// 9. Write a JavaScript program to compute the sum of all digits that occur in a given string.
+
+// const sumStr = (str) => {
+//   return str
+//     .split("")
+//     .map((e) => {
+//       return Number.parseInt(e);
+//     })
+//     .reduce((a, b) => {
+//       return a + b;
+//     });
+// };
+
+// console.log(sumStr("10101010"));
+
+// ----------------------------------------------------------------------------
+
+// 10. Write a JavaScript program that reverses a number.
+
+// const reverseFunction = (n) => {
+//   return n
+//     .toString()
+//     .split("")
+//     .reverse()
+//     .reduce((a, b) => {
+//       return a + b;
+//     });
+// };
+
+// console.log(reverseFunction(651564));
+
+// ----------------------------------------------------------------------------
+
+// 11. Write a Program to cyclically Rotate a Number by X positions in the left direction, as provided by the user.
+
+// Not complete
+
+// const rotateNum = (n, x) => {
+//   let charCode;
+//   return n
+//     .toString()
+//     .split("")
+//     .map((e, i) => {
+//       charCode = e.charCodeAt() + x;
+//       return e.replace(e, String.fromCharCode(charCode));
+//     });
+// };
+
+// console.log(rotateNum(1234, 2));
+
+// ----------------------------------------------------------------------------
+
+// 12. Write a Program to convert Decimal to Binary.
+
+const convert = (n) => {
+  let quotient;
+  let remainder;
+  while () {
+    
+  }
+};
+
+console.log(convert(10));
