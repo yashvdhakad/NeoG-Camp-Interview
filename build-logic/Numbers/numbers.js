@@ -77,3 +77,23 @@
 
 // ----------------------------------------------------------------------------
 
+// 8. Write a Program to Print N Odd Number in Descending Order.
+
+// const printOddNumbers = (n) => {
+//   let oddArr = [];
+//   let arr = [...Array(n * 3 + 1).keys()].slice(1);
+//   arr.map((e) => {
+//     if (e === e[0] || e % 2 !== 0) {
+//       oddArr.push(e);
+//     }
+//   });
+//   return oddArr
+//     .sort((a, b) => {
+//       return a - b;
+//     })
+//     .slice(0, n)
+//     .reverse().toString();
+// };
+
+// console.log(printOddNumbers(4));
+
